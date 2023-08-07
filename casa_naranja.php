@@ -216,7 +216,7 @@
                 <li><strong>Administrador</strong> <span>Marco</span></li>
                 <li><strong>Fecha de Fotos</strong> <span>01 March, 2022</span></li>
                 <li><strong>Fotos de la casa</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visita la Pagina</a></li>
+                <li><a href="gallery_casa_naranja.php" class="btn-visit align-self-start">Fotos de la casa.</a></li>
               </ul>
             </div>
           </div>
