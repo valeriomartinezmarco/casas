@@ -83,7 +83,7 @@ include_once('templeate/header.php');
                   Cocina cuenta (Cafetera,Estufa,Refrigerador,Sartens,Platos,Vasos)<br>
                   Incluye un Garrafon nuevo<br>
                   Incluye Un rollo nuevo por cada Baño<br>
-                  Incluye Bolsas de Basura
+                  Incluye Bolsas de Basura<br>
                   No cuenta con Horno de Microondas<br>
                   No incluye Toallas de Baño<br>
                   Cuenta con un cuarto Privado, con Baño.<br>
