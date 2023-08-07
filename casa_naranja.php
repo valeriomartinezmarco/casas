@@ -111,42 +111,31 @@
     <!-- ======= Gallery Single Section ======= -->
     <section id="gallery-single" class="gallery-single">
       <div class="container">
-<?php
-      $thefolder = "assets/img/gallery/casa_naranja/";
-if ($handler = opendir($thefolder)) {
-    while (false !== ($file = readdir($handler))) {
-      if( $handler != "." && $handler != ".."){
-        echo "$file<br>";
-      }else{
-        
-      }
-    }
-    closedir($handler);
-}
-?>
+
 
         <div class="position-relative h-100">
           <div class="slides-1 portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja1.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja2.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja3.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja4.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja5.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/casa_naranja/naranja6.jpg" alt="">
-              </div>
+              
+              <?php
+                    $directory = "assets/img/gallery/casa_naranja/";
+                    $dirint = dir($directory);
+                    while (($archivo = $dirint->read()) != false)
+                    {
+                        if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
+                            $image = $directory. $archivo;
+                            ?>
+                              <div class="swiper-slide">
+                                <img src="<?= $image;?>" alt="">
+                              </div>
+                            <?Php
+                        }
+                    }
+                    $dirint->close();
+                
+              ?>
+       
 
             </div>
             <div class="swiper-pagination"></div>
