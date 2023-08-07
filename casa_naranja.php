@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Gallery Single</title>
+  <title>Casa Naranja</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,13 +47,13 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <i class="bi bi-camera"></i>
-        <h1>PhotoFolio</h1>
+        <h1>Casa Naranja</h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Nosotros</a></li>
           <li class="dropdown"><a href="#"><span>Casa Naranja</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="gallery.html" class="active">Nature</a></li>
@@ -71,8 +71,8 @@
               </li>
             </ul>
           </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="contact.html">Contacto</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -96,7 +96,10 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>Casa Naranja</h2>
-            <p align='justify'>Disfruta de la una quinta casa privaada en Chinconcuac, Xochitepec. El costo es para 7 personas y la capacidad máxima es de 10. </p>
+            <p align='justify'>Disfruta de la una quinta casa privada en Chinconcuac, Xochitepec. El costo es para 7 personas y la capacidad máxima es de 10. <br>
+            
+            <br>  Deseas reservar, lo puedes hacer con $1000 y el resto al estar instalado dentro de la casa.
+            </p>
 
             <a class="cta-btn" href="contact.html">Me interesa, deseo mas información de la casa y fechas disponibles.</a>
 
@@ -108,6 +111,19 @@
     <!-- ======= Gallery Single Section ======= -->
     <section id="gallery-single" class="gallery-single">
       <div class="container">
+<?php
+      $thefolder = "assets/img/gallery/casa_naranja/";
+if ($handler = opendir($thefolder)) {
+    while (false !== ($file = readdir($handler))) {
+      if( $handler != "." && $handler != ".."){
+        echo "$file<br>";
+      }else{
+        
+      }
+    }
+    closedir($handler);
+}
+?>
 
         <div class="position-relative h-100">
           <div class="slides-1 portfolio-details-slider swiper">
@@ -149,31 +165,55 @@
                 Ubicada en Chinconcuac Xochitepec, casa privada con cámaras de seguridad, cerca elecrificada para su seguridad.
               </p>
               <p> 
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+                Cuenta con alberca, Jacuzzi, camastros, regadera, baño en area verde,palapa con ventilador, mesa en palapa, iluminación en palapa, area de asador con tarja.
               </p>
+              <div class="testimonial-item">
+                <p>
+
+                  <i class="bi fa-check"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Casa para 7 personas (Máximo 10 personas)<br>
+                  Capacidad para 4 autos<br>
+                  Se aceptan mascotas sin costo<br>
+                  La casa no tiene capacidad para eventos<br>
+                  Hora de entrada desde 9 am  y salida 2 pm (**Se puede ampliar hora salida)<br>
+                  Cocina cuenta (Cafetera,Estufa,Refrigerador,Sartens,Platos,Vasos)<br>
+                  Incluye un Garrafon nuevo<br>
+                  Incluye Un rollo nuevo por cada Baño<br>
+                  Incluye Bolsas de Basura
+                  No cuenta con Horno de Microondas<br>
+                  No incluye Toallas de Baño<br>
+                  Cuenta con un cuarto Privado, con Baño.<br>
+                  En la parte superior hay dos camas matrimoniales con sofa cama, con baño completo.
+
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
+                  <h3>Descripción de Casa</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
 
               <div class="testimonial-item">
                 <p>
 
                   <i class="bi fa-check"></i>
-                  Casa para 7 personas (Máximo 10 personas)<br>
-                  Se aceptan mascotas sin costo
-                  La casa no tiene capacidad para eventos
-                  Hora de entrada desde 9 am  y salida 2 pm (**Se puede ampliar hora salida)
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Cuenta con alberca, Jacuzzi, camastros, regadera, baño en area verde,palapa con ventilador, mesa en palapa, iluminación en palapa, area de asador con tarja.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
+                  <img src="assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
+                  <h3>Descripción Area verde.</h3>
                   <h4>Designer</h4>
                 </div>
               </div>
 
               <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-
+                La casa se encuentra constantemente en mantenimiento para darte el mejor servicio.
               <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+                La casa se encuentra en el Chinconcuac, Xochitepec.
               </p>
 
             </div>
@@ -181,13 +221,13 @@
 
           <div class="col-lg-3">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Información de la casa. </h3>
               <ul>
-                <li><strong>Category</strong> <span>Nature Photography</span></li>
-                <li><strong>Client</strong> <span>ASU Company</span></li>
-                <li><strong>Project date</strong> <span>01 March, 2022</span></li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Categoria</strong> <span>****</span></li>
+                <li><strong>Administrador</strong> <span>Marco</span></li>
+                <li><strong>Fecha de Fotos</strong> <span>01 March, 2022</span></li>
+                <li><strong>Fotos de la casa</strong> <a href="#">www.example.com</a></li>
+                <li><a href="#" class="btn-visit align-self-start">Visita la Pagina</a></li>
               </ul>
             </div>
           </div>
