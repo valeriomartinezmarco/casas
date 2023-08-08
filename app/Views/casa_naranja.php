@@ -33,7 +33,8 @@ include_once('templeate/header.php');
 
               
               <?php
-                   echo $directory = base_url()."vendor/assets/img/gallery/casa_naranja/";
+              echo base_url();
+                    $directory = base_url()."vendor/assets/img/gallery/casa_naranja/";
                     $dirint = dir($directory);
                     while (($archivo = $dirint->read()) != false)
                     {
