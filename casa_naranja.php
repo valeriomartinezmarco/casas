@@ -15,8 +15,8 @@ include_once('templeate/header.php');
             <br>  Deseas reservar, lo puedes hacer con $1000 y el resto al estar instalado dentro de la casa.
             </p>
 
-            <a class="cta-btn" href="contact.html">Me interesa, deseo mas información de la casa y fechas disponibles.</a>
-
+            <a class="cta-btn" href="https://wa.me/+527777929929/?text=tu%20texto%20personalizado">Me interesa, deseo mas información de la <i>Casa Naranja</i> y fechas disponibles.</a>
+            
           </div>
         </div>
       </div>
