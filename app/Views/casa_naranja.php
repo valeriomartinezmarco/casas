@@ -32,14 +32,16 @@ include_once('templeate/header.php');
             <div class="swiper-wrapper align-items-center">
 
               
-              <?php
-              echo base_url();
-                    $directory = base_url()."vendor/assets/img/gallery/casa_naranja/";
+              <?=
+              
+              
+              
+                    $directory = "C:/xampp/htdocs/PhotoFolio/vendor/assets/img/gallery/";
                     $dirint = dir($directory);
                     while (($archivo = $dirint->read()) != false)
                     {
                         if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
-                            $image = $directory. $archivo;
+                             $image = $directory. $archivo;
                             ?>
                               <div class="swiper-slide">
                                 <img src="<?= $image;?>" alt="">
