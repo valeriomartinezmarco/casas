@@ -1,5 +1,7 @@
   <?php
 include_once('templeate/header.php');
+
+
 ?>
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
@@ -32,17 +34,14 @@ include_once('templeate/header.php');
             <div class="swiper-wrapper align-items-center">
 
               
-<<<<<<< HEAD
               <?php
               
+             
+      exit();
+      
+
+              /**
                     $directory = "xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja";
-=======
-              <?=
-              
-              
-              
-                    $directory = "C:/xampp/htdocs/PhotoFolio/vendor/assets/img/gallery/";
->>>>>>> 9460ccc85baf0fdc48c8b59dc9329f1094ed30d1
                     $dirint = dir($directory);
                     while (($archivo = $dirint->read()) != false)
                     {
@@ -56,7 +55,7 @@ include_once('templeate/header.php');
                         }
                     }
                     $dirint->close();
-                
+                **/
               ?>
        
 
