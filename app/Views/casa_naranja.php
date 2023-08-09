@@ -32,8 +32,8 @@ include_once('templeate/header.php');
             <div class="swiper-wrapper align-items-center">
 
               
-              <?php
-              echo base_url();
+              <?=
+              
                     $directory = base_url()."vendor/assets/img/gallery/casa_naranja/";
                     $dirint = dir($directory);
                     while (($archivo = $dirint->read()) != false)
@@ -93,7 +93,7 @@ include_once('templeate/header.php');
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
+                  <img src="<?= base_url()?>vendor/assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
                   <h3>Descripción de Casa</h3>
                   <h4>Designer</h4>
                 </div>
@@ -108,7 +108,7 @@ include_once('templeate/header.php');
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
+                  <img src="<?= base_url()?>vendor/assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img" alt="">
                   <h3>Descripción Area verde.</h3>
                   <h4>Designer</h4>
                 </div>
