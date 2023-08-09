@@ -32,9 +32,9 @@ include_once('templeate/header.php');
             <div class="swiper-wrapper align-items-center">
 
               
-              <?=
+              <?php
               
-                    $directory = base_url()."vendor/assets/img/gallery/casa_naranja/";
+                    $directory = "xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja";
                     $dirint = dir($directory);
                     while (($archivo = $dirint->read()) != false)
                     {
