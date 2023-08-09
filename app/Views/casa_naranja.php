@@ -33,35 +33,7 @@ include_once('templeate/header.php');
           <div class="slides-1 portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
-              
-              <?php
-              
-              
-        
-        echo($json_Array);
-//print_r($json_Array);
-  
-              
-      
-
-              /**
-                    $directory = "xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja";
-                    $dirint = dir($directory);
-                    while (($archivo = $dirint->read()) != false)
-                    {
-                        if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
-                             $image = $directory. $archivo;
-                            ?>
-                              <div class="swiper-slide">
-                                <img src="<?= $image;?>" alt="">
-                              </div>
-                            <?Php
-                        }
-                    }
-                    $dirint->close();
-                **/
-              ?>
-       
+         
 
             </div>
             <div class="swiper-pagination"></div>

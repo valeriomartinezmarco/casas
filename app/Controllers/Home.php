@@ -37,10 +37,7 @@ class Home extends BaseController
                     }
                   }
               }
-
-              $data=($json_Array);
-
-        return view('casa_naranja',$data);
+        return view('casa_naranja');
     }
 }
 

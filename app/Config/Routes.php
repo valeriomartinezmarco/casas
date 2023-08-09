@@ -31,7 +31,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$routes->get('casa_naranja', 'Home::casa_naranja');
+$routes->get('casanaranja', 'Home::casa_naranja');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
