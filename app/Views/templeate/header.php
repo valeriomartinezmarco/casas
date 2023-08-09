@@ -19,7 +19,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   
   <!-- Vendor CSS Files -->
-<<<<<<< HEAD
   <link href="<?= base_url()?>vendor/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= base_url()?>vendor/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?= base_url()?>vendor/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -28,16 +27,6 @@
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url()?>vendor/assets/css/main.css" rel="stylesheet">
-=======
-  <link href="vendor/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="vendor/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="vendor/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="vendor/assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="vendor/assets/css/main.css" rel="stylesheet">
->>>>>>> 9460ccc85baf0fdc48c8b59dc9329f1094ed30d1
 
   <!-- =======================================================
   * Template Name: PhotoFolio

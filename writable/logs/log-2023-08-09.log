@@ -146,3 +146,608 @@ in APPPATH\Views\casa_naranja.php on line 36.
  6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:01:38 --> Undefined variable $map
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $map', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:01:56 --> Undefined variable $map
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $map', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:02:48 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:03:18 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:03:32 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:55:21 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:55:36 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:55:59 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 16:56:06 --> Undefined variable $data
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:02:14 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:02:15 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:06:32 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:11:01 --> Undefined variable $map
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $map', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:13:21 --> Undefined variable $map
+in APPPATH\Views\casa_naranja.php on line 39.
+ 1 APPPATH\Views\casa_naranja.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $map', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:26:02 --> scandir(http://localhost/PhotoFolio/vendor/assets/img/gallery/): Failed to open directory: not implemented
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(http://localhost/PhotoFolio/vendor/assets/img/gallery/): Failed to open directory: not implemented', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): scandir('http://localhost/PhotoFolio/vendor/assets/img/gallery/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:27:53 --> unlink(C:\xampp\htdocs\PhotoFolio\writable\debugbar/debugbar_1691595857.108186.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\PhotoFolio\\writable\\debugbar/debugbar_1691595857.108186.json): No such file or directory', 'C:\\xampp\\htdocs\\PhotoFolio\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\PhotoFolio\\writable\\debugbar/debugbar_1691595857.108186.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1691602069.289926', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:34:47 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:38:35 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:38:36 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:52:00 --> Undefined variable $dir
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dir', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:52:14 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:55:02 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:55:28 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 17:55:31 --> scandir(): Argument #1 ($directory) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): scandir([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 18:17:25 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:06:45 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 51.
+ 1 APPPATH\Views\casa_naranja.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:07:45 --> Array to string conversion
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:07:57 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 51.
+ 1 APPPATH\Views\casa_naranja.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:08:22 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:08:24 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:09:09 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:10:16 --> Undefined variable $files_arr
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files_arr', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:33:56 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Home.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:34:10 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:34:25 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:37:50 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:40:24 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:40:55 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:41:21 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:41:34 --> Undefined array key "jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:41:50 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:41:54 --> Undefined array key "jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:42:24 --> Undefined array key "jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:43:29 --> Undefined array key "jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:43:46 --> Undefined array key "vendor/assets/img/gallery//gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor/assets/img/gallery//gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:44:30 --> Undefined array key "vendor/assets/img/gallery//gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor/assets/img/gallery//gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:44:54 --> Undefined array key "gallery-1.jpg"
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery-1.jpg"', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:58:20 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 19:59:15 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:09:10 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:12:43 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:18:02 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 40.
+ 1 APPPATH\Views\casa_naranja.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:18:24 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:18:38 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:18:52 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '["gallery-1.jpg","gallery-2.jpg","gallery-3.jpg","gallery-4.jpg","gallery-5.jpg","gallery-6.jpg","gallery-7.jpg","gallery-8.jpg"]')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:19:46 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '"[\\"gallery-1.jpg\\",\\"gallery-2.jpg\\",\\"gallery-3.jpg\\",\\"gallery-4.jpg\\",\\"gallery-5.jpg\\",\\"gallery-6.jpg\\",\\"gallery-7.jpg\\",\\"gallery-8.jpg\\"]"')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:26:31 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '"[\\"gallery-1.jpg\\",\\"gallery-2.jpg\\",\\"gallery-3.jpg\\",\\"gallery-4.jpg\\",\\"gallery-5.jpg\\",\\"gallery-6.jpg\\",\\"gallery-7.jpg\\",\\"gallery-8.jpg\\"]"')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:26:48 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '["gallery-1.jpg","gallery-2.jpg","gallery-3.jpg","gallery-4.jpg","gallery-5.jpg","gallery-6.jpg","gallery-7.jpg","gallery-8.jpg"]')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:27:01 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '["gallery-1.jpg","gallery-2.jpg","gallery-3.jpg","gallery-4.jpg","gallery-5.jpg","gallery-6.jpg","gallery-7.jpg","gallery-8.jpg"]')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:27:31 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '["gallery-1.jpg","gallery-2.jpg","gallery-3.jpg","gallery-4.jpg","gallery-5.jpg","gallery-6.jpg","gallery-7.jpg","gallery-8.jpg"]')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:27:41 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PhotoFolio\app\Controllers\Home.php on line 43
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(43): view('casa_naranja', '["gallery-1.jpg","gallery-2.jpg","gallery-3.jpg","gallery-4.jpg","gallery-5.jpg","gallery-6.jpg","gallery-7.jpg","gallery-8.jpg"]')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:28:00 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:28:14 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:28:41 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:28:48 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:30:56 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 42.
+ 1 APPPATH\Views\casa_naranja.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:31:35 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 42.
+ 1 APPPATH\Views\casa_naranja.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 20:31:46 --> Undefined variable $json_Array
+in APPPATH\Views\casa_naranja.php on line 41.
+ 1 APPPATH\Views\casa_naranja.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_Array', 'C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\PhotoFolio\\app\\Views\\casa_naranja.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('casa_naranja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa_naranja()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

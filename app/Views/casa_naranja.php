@@ -36,8 +36,12 @@ include_once('templeate/header.php');
               
               <?php
               
-             
-      exit();
+              
+        
+        echo($json_Array);
+//print_r($json_Array);
+  
+              
       
 
               /**
