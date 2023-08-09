@@ -10,7 +10,7 @@ class Home extends BaseController
     }
 
 
-    public function casa_naranja()
+    public function casanaranja()
     {
             
             $json_array = array();
@@ -37,6 +37,10 @@ class Home extends BaseController
                     }
                   }
               }
+
+        return view('/template/header');
+        
+        return view('/template/footer');
         return view('casa_naranja');
     }
 }

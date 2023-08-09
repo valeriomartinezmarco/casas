@@ -1,8 +1,4 @@
-  <?php
-include_once('templeate/header.php');
 
-
-?>
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
 
@@ -126,6 +122,3 @@ include_once('templeate/header.php');
 
   </main><!-- End #main -->
 
-<?php
-include_once('templeate/footer.php');
-?>
