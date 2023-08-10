@@ -1,5 +1,5 @@
 <?php
-include_once('templeate/header.php');
+include_once('template/header.php');
 ?>
 
   <!-- ======= Hero Section ======= -->
@@ -30,7 +30,7 @@ include_once('templeate/header.php');
               <img src="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="casa_naranja" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>
+                <a href="casanaranja" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -178,5 +178,5 @@ include_once('templeate/header.php');
   </main><!-- End #main -->
 
   <?php
-include_once('templeate/footer.php');
+include_once('template/footer.php');
 ?>
