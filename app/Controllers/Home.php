@@ -19,11 +19,9 @@ class Home extends BaseController
     public function casanaranja()
     {
             
-          
-              echo view('/template/header');
-              echo view('casa_naranja');
-              echo view('/template/footer');
-
+        
+        return  view('casa_naranja');
+        
     }
 }
 

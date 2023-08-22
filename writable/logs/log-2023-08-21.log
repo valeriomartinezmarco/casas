@@ -1,0 +1,58 @@
+CRITICAL - 2023-08-21 03:45:21 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\casas\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 03:45:37 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\casas\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 03:45:53 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 03:46:18 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 03:47:00 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:01:42 --> Invalid file: "templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/header.php')
+ 2 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('templates/header.php', null, true)
+ 3 APPPATH\Views\casa_naranja.php(3): CodeIgniter\View\View->include('templates/header.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casa_naranja.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 7 APPPATH\Controllers\Home.php(23): view('casa_naranja')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:03:04 --> Invalid file: "template/footer .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/footer .php')
+ 2 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('template/footer .php', null, true)
+ 3 APPPATH\Views\casa_naranja.php(166): CodeIgniter\View\View->include('template/footer .php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casa_naranja.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casa_naranja', [], true)
+ 7 APPPATH\Controllers\Home.php(23): view('casa_naranja')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
