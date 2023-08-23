@@ -1,24 +1,35 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\casasModel;
+
 
 class Home extends BaseController
 {
+
+
+    //protected $userModel;
+
+    public function __construct()
+    {
+        
+    }
+
+
     public function index()
     {
         
-        
         return view('welcome_message');
-        
-
-        
         
     }
 
 
     public function casanaranja()
-    { 
-        return  view('casa_naranja');   
+    {
+        $casasModel = new casasModel();
+        $data['casas'] = $casasModel->findAll();
+        
+        return  view('casa_naranja',$data);   
     }
 
     public function galerianaranja()

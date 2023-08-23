@@ -23,18 +23,22 @@ class CreateClienteTable extends Migration
 
         $this->forge->addField([
             'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5],
-            'tituloCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'introCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'botonCasaCel' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'tituloDescCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'descCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'descJardin' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'footerCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'infoCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'categoriaCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'adminCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'fotosfechaCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
-            'ligafotosCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
+            'tituloCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'introCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'botonCasaCel' => ['type' => 'TEXT', 'constraint' => 200],
+            'tituloDescCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'descCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'descJardin' => ['type' => 'TEXT', 'constraint' => 200],
+            'footerCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'infoCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'categoriaCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'adminCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'fotosfechaCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'ligafotosCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'created_at datetime default current_timestamp',
+            'updated_at datetime default current_timestamp',
+            'deleted_at datetime default current_timestamp'
+            
             
         ]);
         $this->forge->createTable('casas'); 
