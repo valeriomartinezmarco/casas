@@ -1,5 +1,5 @@
 <?php
-include_once('templeate/header.php');
+include_once('template/header.php');
 ?>
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
@@ -11,16 +11,25 @@ include_once('templeate/header.php');
           <div class="col-lg-6 text-center">
             <?php
             $count=0;
-            $directory = "assets/img/gallery/casa_naranja/all_photo/";
-            $dirint = dir($directory);
-          while (($archivo = $dirint->read()) != false)
-          {
-              if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
-                  $image = $directory. $archivo;
-                  $count=$count+1;
-              }
-          }
-          $dirint->close();
+            $directory = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja/all_photo/");
+
+          //  $directory = "assets/img/gallery/casa_naranja/all_photo/";
+          //$elemento = readdir($directorio)
+            $dirint =  readdir($directory);
+
+            while($elemento = readdir($directory))
+            {
+            
+                if($elemento != '.' && $elemento != '..')
+                {
+                  echo $count=$count+1;
+
+                  
+                }
+            }
+
+
+          //$dirint->close();
           ?>
             <h2>
               Casa Naranja <br>
@@ -44,29 +53,29 @@ include_once('templeate/header.php');
           
 
           <?php
-          $directory = "assets/img/gallery/casa_naranja/all_photo/";
-          $dirint = dir($directory);
-          while (($archivo = $dirint->read()) != false)
-          {
-              if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
-                  $image = $directory. $archivo;
-                  ?>
+          $directory = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja/all_photo/");
 
-                      <div class="col-xl-3 col-lg-4 col-md-6">
+          //$dirint = dir($directory);
+          while($elemento = readdir($directory)){;
+            if($elemento != '.' && $elemento != '..')
+              {?>
+              
+              <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="gallery-item h-100">
-                          <img src="<?= $image;?>" class="img-fluid" alt="">
+                          <img src="<?= base_url().'/vendor/assets/img/gallery/casa_naranja/all_photo/'.$elemento;?>" class="img-fluid" alt="">
                           <div class="gallery-links d-flex align-items-center justify-content-center">
-                            <a href="<?= $image;?>" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                            <a href="<?= $image;?>" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="<?= $elemento;?>" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            <a href="<?= $elemento;?>" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Gallery Item -->
          
 
-                  <?Php
+              <?php
               }
+         
           }
-          $dirint->close();
+          //$dirint->close();
       
     ?>
 
@@ -80,5 +89,5 @@ include_once('templeate/header.php');
   </main><!-- End #main -->
 
   <?php
-include_once('templeate/footer.php');
+include_once('template/footer.php');
 ?>

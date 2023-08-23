@@ -17,11 +17,13 @@ class Home extends BaseController
 
 
     public function casanaranja()
-    {
-            
-        
-        return  view('casa_naranja');
-        
+    { 
+        return  view('casa_naranja');   
+    }
+
+    public function galerianaranja()
+    { 
+        return  view('gallery_casa_naranja');   
     }
 }
 

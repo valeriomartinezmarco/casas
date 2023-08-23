@@ -32,6 +32,8 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 $routes->get('casanaranja', 'Home::casanaranja');
+
+$routes->get('galerianaranja', 'Home::galerianaranja');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
