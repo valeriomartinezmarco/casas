@@ -27,7 +27,7 @@ class Home extends BaseController
     public function casanaranja()
     {
         $casasModel = new casasModel();
-        $data['casas'] = $casasModel->findAll();
+        $data['casas'] = $casasModel->find();
         
         return  view('casa_naranja',$data);   
     }

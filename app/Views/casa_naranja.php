@@ -9,13 +9,10 @@ include_once('template/header.php');
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Casa Naranja</h2>
-            <p align='justify'>Disfruta de la una quinta casa privada en Chinconcuac, Xochitepec. El costo es para 7 personas y la capacidad máxima es de 10. <br>
-            
-            <br>  Deseas reservar, lo puedes hacer con $1000 y el resto al estar instalado dentro de la casa.
-            </p>
+            <h2><?= $casas[0]['tituloCasa'];?></h2>
+            <?= $casas[0]['introCasa'];?>
 
-            <a class="cta-btn" href="https://wa.me/+527777929929/?text=tu%20texto%20personalizado">Me interesa, deseo mas información de la <i>Casa Naranja</i> y fechas disponibles.</a>
+            <a class="cta-btn" href="https://wa.me/+527777929929/?text=tu%20texto%20personalizado">   <?= $casas[0]['botonCasaCel'];?>            </a>
             
           </div>
         </div>
