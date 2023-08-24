@@ -28,7 +28,8 @@ class Home extends BaseController
     {
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->find();
-        
+        //print_r($data['casas']);
+       //exit();
         return  view('casa_naranja',$data);   
     }
 

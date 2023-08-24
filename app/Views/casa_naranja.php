@@ -11,7 +11,7 @@ include_once('template/header.php');
           <div class="col-lg-6 text-center">
             <h2><?= $casas[0]['tituloCasa'];?></h2>
             <?= $casas[0]['introCasa'];?>
-
+            
             <a class="cta-btn" href="https://wa.me/+527777929929/?text=tu%20texto%20personalizado">   <?= $casas[0]['botonCasaCel'];?>            </a>
             
           </div>
@@ -28,8 +28,10 @@ include_once('template/header.php');
             <div class="swiper-wrapper align-items-center">
 
             <?php
+          $archivo="C:/xampp/htdocs/casas/vendor/assets/img/gallery/".$casas[0]['tagCasa'];
+           
           $listar = null;
-          $directorio = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/'. $casas[0]['tagCasa'] .'");
+          $directorio = opendir($archivo);
           while($elemento = readdir($directorio))
           {
           

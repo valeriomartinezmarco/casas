@@ -14,7 +14,7 @@ class casasModel extends Model
     //protected $returnType     = 'array';
     //protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['id','tituloCasa','introCasa' , 'botonCasaCel', 'tituloDescCasa',  'descCasa' ,  'descJardin' ,'footerCasa','infoCasa','categoriaCasa' , 'adminCasa','fotosfechaCasa','ligafotosCasa' ];
+    protected $allowedFields = ['id','tagCasa','tituloCasa','introCasa',  'botonCasaCel', 'tituloDescCasa',  'descCasa' ,  'descJardin' ,'footerCasa','infoCasa','categoriaCasa' , 'adminCasa','fotosfechaCasa','ligafotosCasa' ];
 
 
     // Dates
