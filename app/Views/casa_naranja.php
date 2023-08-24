@@ -22,12 +22,7 @@ include_once('template/header.php');
     <!-- ======= Gallery Single Section ======= -->
     <section id="gallery-single" class="gallery-single">
       <div class="container">
-<?php 
 
-echo '<pre>';
-print_r($casas);
-echo '</pre>';
-?>
         <div class="position-relative h-100">
           <div class="slides-1 portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
