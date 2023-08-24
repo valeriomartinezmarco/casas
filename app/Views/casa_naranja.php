@@ -29,14 +29,14 @@ include_once('template/header.php');
 
             <?php
           $listar = null;
-          $directorio = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja");
+          $directorio = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/'. $casas[0]['tagCasa'] .'");
           while($elemento = readdir($directorio))
           {
           
               if($elemento != '.' && $elemento != '..')
               {?>
                 <div class="swiper-slide">
-                <img src="vendor/assets/img/gallery/casa_naranja/<?= $elemento; ?>" alt="">
+                <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="">
               </div>
 
                 <?php
@@ -58,31 +58,18 @@ include_once('template/header.php');
 
 <div class="col-lg-8">
   <div class="portfolio-description">
-    <h2>Casa Naranja</h2>
+    <h2>  <?= $casas[0]['tituloCasa'];?>   </h2>
     <p>
-      Ubicada en Chinconcuac Xochitepec, casa privada con cámaras de seguridad, cerca elecrificada para su seguridad.
-    </p>
-    <p> 
-      Cuenta con alberca, Jacuzzi, camastros, regadera, baño en area verde,palapa con ventilador, mesa en palapa, iluminación en palapa, area de asador con tarja.
+    <?= $casas[0]['tituloDescCasa'];?>   
     </p>
     <div class="testimonial-item">
       <p>
 
         <i class="bi fa-check"></i>
         <i class="bi bi-quote quote-icon-left"></i>
-        Casa para 7 personas (Máximo 10 personas)<br>
-        Capacidad para 4 autos<br>
-        Se aceptan mascotas sin costo<br>
-        La casa no tiene capacidad para eventos<br>
-        Hora de entrada desde 9 am  y salida 2 pm (**Se puede ampliar hora salida)<br>
-        Cocina cuenta (Cafetera,Estufa,Refrigerador,Sartens,Platos,Vasos)<br>
-        Incluye un Garrafon nuevo<br>
-        Incluye Un rollo nuevo por cada Baño<br>
-        Incluye Bolsas de Basura<br>
-        No cuenta con Horno de Microondas<br>
-        No incluye Toallas de Baño<br>
-        Cuenta con un cuarto Privado, con Baño.<br>
-        En la parte superior hay dos camas matrimoniales con sofa cama, con baño completo.
+        <?= $casas[0]['descCasa'];?>   
+        
+        
 
         <i class="bi bi-quote quote-icon-right"></i>
       </p>

@@ -50,8 +50,8 @@ CREATE TABLE `casas` (
 -- Volcado de datos para la tabla `casas`
 --
 
-INSERT INTO `casas` (`id`, `tituloCasa`, `introCasa`, `botonCasaCel`, `tituloDescCasa`, `descCasa`, `descJardin`, `footerCasa`, `infoCasa`, `categoriaCasa`, `adminCasa`, `fotosfechaCasa`, `ligafotosCasa`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(0, 'Casa Naranja', '<p style=\"text-align:center\">Disfruta de la una quinta casa privada en Chinconcuac, Xochitepec.<br />\r\nEl costo es para 7 personas y la capacidad m&aacute;xima es de 10.<br />\r\nDeseas reservar, lo puedes hacer con $1000 y el resto al estar instalado dentro de la casa.</p>', 'Me interesa, deseo mas información de la <i>Casa Naranja</i> y fechas disponibles.', 'bbbb', '88hkjh', '9jjkbjk bjkbjk', 'jkhkj jk', 'kj 9877 h j', '8897 hhh', 'hhj877 ', '87hjh jh jh', 'jh s', '2023-08-23 23:24:36', '2023-08-23 23:24:36', '2023-08-23 23:24:36');
+INSERT INTO `casas` (`id`, `tituloCasa`, `tagCasa`,`introCasa`, `botonCasaCel`, `tituloDescCasa`, `descCasa`, `descJardin`, `footerCasa`, `infoCasa`, `categoriaCasa`, `adminCasa`, `fotosfechaCasa`, `ligafotosCasa`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(0, 'Casa Naranja', 'casa_naranja','<p style=\"text-align:center\">Disfruta de la una quinta casa privada en Chinconcuac, Xochitepec.<br />\r\nEl costo es para 7 personas y la capacidad m&aacute;xima es de 10.<br />\r\nDeseas reservar, lo puedes hacer con $1000 y el resto al estar instalado dentro de la casa.</p>', 'Me interesa, deseo mas información de la <i>Casa Naranja</i> y fechas disponibles.', 'bbbb', '88hkjh', '9jjkbjk bjkbjk', 'jkhkj jk', 'kj 9877 h j', '8897 hhh', 'hhj877 ', '87hjh jh jh', 'jh s', '2023-08-23 23:24:36', '2023-08-23 23:24:36', '2023-08-23 23:24:36');
 
 --
 -- Índices para tablas volcadas

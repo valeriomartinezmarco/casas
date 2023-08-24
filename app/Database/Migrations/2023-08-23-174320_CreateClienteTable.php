@@ -24,6 +24,7 @@ class CreateClienteTable extends Migration
         $this->forge->addField([
             'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5],
             'tituloCasa' => ['type' => 'TEXT', 'constraint' => 200],
+            'tagCasa' => ['type' => 'TEXT', 'constraint' => 200],
             'introCasa' => ['type' => 'TEXT', 'constraint' => 200],
             'botonCasaCel' => ['type' => 'TEXT', 'constraint' => 200],
             'tituloDescCasa' => ['type' => 'TEXT', 'constraint' => 200],
