@@ -51,30 +51,26 @@ body {
 
         <div class="position-relative h-100">
           <div class="slides-1 portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-
-            <?php
-          $archivo="C:/xampp/htdocs/casas/vendor/assets/img/gallery/".$casas[0]['tagCasa'];
-           
-          $listar = null;
-          $directorio = opendir($archivo);
-          while($elemento = readdir($directorio))
-          {
-          
-              if($elemento != '.' && $elemento != '..')
-              {?>
-                <div class="swiper-slide">
-                <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
-              </div>
-
+              <div class="swiper-wrapper align-items-center">
                 <?php
-              }
-          }
-?>
+                $archivo="C:/xampp/htdocs/casas/vendor/assets/img/gallery/".$casas[0]['tagCasa'];
+                
+                $listar = null;
+                $directorio = opendir($archivo);
+                while($elemento = readdir($directorio))
+                {
+                
+                    if($elemento != '.' && $elemento != '..')
+                    {?>
+                      <div class="swiper-slide">
+                      <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
+                    </div>
 
-              
-              
-            </div>
+                      <?php
+                    }
+                }
+                ?>
+              </div>
             <div class="swiper-pagination"></div>
           </div>
           <div class="swiper-button-prev"></div>
