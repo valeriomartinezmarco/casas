@@ -19,6 +19,13 @@ body {
   --color-primary: #4d4f59;
   --color-secondary: #161718;
 }
+
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 30px 0;
+  background-color: #0c2331;
+}
 </style>
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
