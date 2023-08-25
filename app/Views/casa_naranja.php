@@ -87,7 +87,7 @@ include_once('template/header.php');
 
         <i class="bi fa-check"></i>
         <i class="bi bi-quote quote-icon-left"></i>
-        Cuenta con alberca, Jacuzzi, camastros, regadera, baño en area verde,palapa con ventilador, mesa en palapa, iluminación en palapa, area de asador con tarja.
+        <?= $casas[0]['descJardin'];?>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
       <div>
@@ -96,13 +96,7 @@ include_once('template/header.php');
         <h4>Designer</h4>
       </div>
     </div>
-
-    <p>
-      La casa se encuentra constantemente en mantenimiento para darte el mejor servicio.
-    <p>
-      La casa se encuentra en el Chinconcuac, Xochitepec.
-    </p>
-
+    <?= $casas[0]['footerCasa'];?>
   </div>
 </div>
 
@@ -110,9 +104,9 @@ include_once('template/header.php');
   <div class="portfolio-info">
     <h3>Información de la casa. </h3>
     <ul>
-      <li><strong>Categoria</strong> <span>****</span></li>
-      <li><strong>Administrador</strong> <span>Marco</span></li>
-      <li><strong>Fecha de Fotos</strong> <span>01 March, 2022</span></li>
+      <li><strong>Categoria</strong> <span><?= $casas[0]['categoriaCasa'];?></span></li>
+      <li><strong>Administrador</strong> <span><?= $casas[0]['adminCasa'];?></span></li>
+      <li><strong>Fecha de Fotos</strong> <span><?= $casas[0]['fotosfechaCasa'];?></span></li>
       <li><strong>Fotos de la casa</strong> <a href="#">www.example.com</a></li>
       <li><a href="galerianaranja" class="btn-visit align-self-start">Fotos de la casa.</a></li>
     </ul>
