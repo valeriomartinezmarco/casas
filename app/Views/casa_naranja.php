@@ -1,6 +1,25 @@
 <?php
 include_once('template/header.php');
 ?>
+<style>
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+  background-color: #0c2331;
+}
+.gallery-single .portfolio-description .testimonial-item {
+  padding: 30px 30px 0 30px;
+  position: relative;
+  background: #353c44;
+  height: 100%;
+  margin-bottom: 50px;
+}
+  :root {
+  --color-default: #fafafa;
+  --color-primary: #4d4f59;
+  --color-secondary: #161718;
+}
+</style>
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
 
@@ -38,7 +57,7 @@ include_once('template/header.php');
               if($elemento != '.' && $elemento != '..')
               {?>
                 <div class="swiper-slide">
-                <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="">
+                <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
               </div>
 
                 <?php
