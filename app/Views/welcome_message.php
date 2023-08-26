@@ -24,11 +24,27 @@ include_once('template/header.php');
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
+
+            <?php
+            $count=0;
+            $directory = opendir("C:/xampp/htdocs/casas/vendor/assets/img/gallery/casa_naranja/all_photo/");
+            $dirint =  readdir($directory);
+            while($elemento = readdir($directory))
+            {
+                if($elemento != '.' && $elemento != '..')
+                {
+                  echo $count=$count+1;
+                }
+            }
+          ?>
+
               <img src="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="propiedad/1" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>
               </div>
+            
+            
             </div>
           </div><!-- End Gallery Item -->
           
