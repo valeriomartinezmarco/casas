@@ -1,0 +1,94 @@
+CRITICAL - 2023-08-26 00:53:02 --> Invalid file: "casas/casa_naranja.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('casas/casa_naranja.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casas/casa_naranja', [], true)
+ 3 APPPATH\Controllers\Home.php(33): view('casas/casa_naranja', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:53:30 --> include_once(template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:54:27 --> include_once(../template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(../template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:55:20 --> include_once(template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('/casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:55:22 --> include_once(template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('/casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:56:35 --> include_once(template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 00:56:45 --> include_once(template/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\casas\casa_naranja.php on line 2.
+ 1 APPPATH\Views\casas\casa_naranja.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(template/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php', 2)
+ 2 APPPATH\Views\casas\casa_naranja.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\casas\\casa_naranja.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('casas/casa_naranja', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('casas/casa_naranja', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casanaranja()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 04:30:51 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 04:31:59 --> Undefined array key "tagCasa"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tagCasa"', 'C:\\xampp\\htdocs\\casas\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->casa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

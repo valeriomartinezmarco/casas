@@ -63,7 +63,7 @@ body {
                     if($elemento != '.' && $elemento != '..')
                     {?>
                       <div class="swiper-slide">
-                      <img src="../vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
+                      <img src="vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
                     </div>
 
                       <?php

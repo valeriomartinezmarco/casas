@@ -23,6 +23,18 @@ class Home extends BaseController
         
     }
 
+    public function casa($casa=null)
+    {
+      
+      
+      
+        $casasModel = new casasModel();
+        $data['casas'] = $casasModel->where('id',$casa)->find();
+        $propiedad=($data['casas'][0]['tagCasa']);
+       
+        return  view($propiedad,$data);   
+    }
+
 
     public function casanaranja()
     {
