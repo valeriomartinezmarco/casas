@@ -33,26 +33,17 @@ class Home extends BaseController
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->where('id',$casa)->find();
         $propiedad=($data['casas'][0]['tagCasa']);
-        return  view($propiedad,$data);   
+        return  view('casa',$data);   
     }
 
-
-    public function casanaranja()
-    {
-        $casasModel = new casasModel();
-        $data['casas'] = $casasModel->find();
-        //print_r($data['casas']);
-       //exit();
-        return  view('casa_naranja',$data);   
-    }
 
     public function galeria($casa=null)
     { 
 
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->where('id',$casa)->find();
-        $galeria='gallery_'.$data['casas'][0]['tagCasa'];
-        return  view($galeria,$data);
+        //$galeria='gallery_'.$data['casas'][0]['tagCasa'];
+        return  view('galeria',$data);
            
     }
 }
