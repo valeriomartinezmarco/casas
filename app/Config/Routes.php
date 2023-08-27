@@ -33,9 +33,11 @@ $routes->get('/', 'Home::index');
 
 $routes->get('propiedad/(:num)', 'Home::casa/$1');
 
+$routes->get('galeria/(:num)', 'Home::galeria/$1');
 
 //$routes->get('casanaranja', 'Home::casanaranja');
 //$routes->get('galerianaranja', 'Home::galerianaranja');
+
 
 /*
  * --------------------------------------------------------------------

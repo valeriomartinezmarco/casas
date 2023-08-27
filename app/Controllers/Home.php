@@ -18,20 +18,21 @@ class Home extends BaseController
 
     public function index()
     {
-        
-        return view('welcome_message');
+        $casasModel = new casasModel();
+        $data['casas'] = $casasModel->find();
+        //$propiedad=($data['casas'][0]['tagCasa']);
+      //echo print_r($data);
+    
+        return view('welcome_message',$data);
         
     }
 
     public function casa($casa=null)
     {
       
-      
-      
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->where('id',$casa)->find();
         $propiedad=($data['casas'][0]['tagCasa']);
-       
         return  view($propiedad,$data);   
     }
 
@@ -45,9 +46,14 @@ class Home extends BaseController
         return  view('casa_naranja',$data);   
     }
 
-    public function galerianaranja()
+    public function galeria($casa=null)
     { 
-        return  view('gallery_casa_naranja');   
+
+        $casasModel = new casasModel();
+        $data['casas'] = $casasModel->where('id',$casa)->find();
+        $galeria='gallery_'.$data['casas'][0]['tagCasa'];
+        return  view($galeria,$data);
+           
     }
 }
 

@@ -52,7 +52,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php" class="active">Inicio</a></li>
+          <li><a href="../index.php" class="active">Inicio</a></li>
           <li><a href="about.html">Nosotros</a></li>
           <li class="dropdown"><a href="#"><span>Galeria</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
