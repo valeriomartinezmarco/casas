@@ -22,6 +22,16 @@ class CreateClienteTable extends Migration
 
 
         $this->forge->addField([
+            'idCliente' => ['type' => 'INT','usigned'=>true, 'constraint' => 5, 'unsigned' => true, 'auto_increment' => true],
+            'idCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
+            'status' => ['type' => 'VARCHAR', 'constraint' => 1],
+            'created_at datetime default current_timestamp',
+        ]);
+        $this->forge->addKey('id', true);
+        $this->forge->createTable('casaUsuario'); 
+
+
+        $this->forge->addField([
             'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5],
             'tituloCasa' => ['type' => 'TEXT', 'constraint' => 200],
             'tagCasa' => ['type' => 'TEXT', 'constraint' => 200],

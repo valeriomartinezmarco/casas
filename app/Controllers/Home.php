@@ -27,6 +27,24 @@ class Home extends BaseController
         
     }
 
+
+    public function usuario($usuario=null)
+    {
+        
+        echo $usuario;
+        exit();
+
+        $casasModel = new casasModel();
+        $data['casas'] = $casasModel->find();
+        //$propiedad=($data['casas'][0]['tagCasa']);
+        //echo print_r($data);
+    
+        return view('welcome_message',$data);
+        
+           
+    }
+
+
     public function casa($casa=null)
     {
       
