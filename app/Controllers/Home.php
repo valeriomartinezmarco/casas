@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\casasModel;
+use App\Models\casasinicioModel;
 
 
 class Home extends BaseController
@@ -32,13 +33,11 @@ class Home extends BaseController
     {
         
         echo $usuario;
-        exit();
+        
 
-        $casasModel = new casasModel();
-        $data['casas'] = $casasModel->find();
+        $casasModel = new casasinicioModel();
+        $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
         //$propiedad=($data['casas'][0]['tagCasa']);
-        //echo print_r($data);
-    
         return view('welcome_message',$data);
         
            

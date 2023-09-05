@@ -9,7 +9,7 @@ class CreateClienteTable extends Migration
     public function up()
     {
         $this->forge->addField([
-            'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5, 'unsigned' => true, 'auto_increment' => true],
+            'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5, 'unsigned' => true, '  auto_increment' => true],
             'nombreCliente' => ['type' => 'VARCHAR', 'constraint' => 200],
             'nombreCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
             'email' => ['type' => 'VARCHAR', 'constraint' => 200],
@@ -22,12 +22,12 @@ class CreateClienteTable extends Migration
 
 
         $this->forge->addField([
-            'idCliente' => ['type' => 'INT','usigned'=>true, 'constraint' => 5, 'unsigned' => true, 'auto_increment' => true],
+            'idCliente' => ['type' => 'INT','usigned'=>true],
             'idCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
             'status' => ['type' => 'VARCHAR', 'constraint' => 1],
             'created_at datetime default current_timestamp',
         ]);
-        $this->forge->addKey('id', true);
+        
         $this->forge->createTable('casaUsuario'); 
 
 
