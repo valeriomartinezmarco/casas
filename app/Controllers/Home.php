@@ -39,11 +39,20 @@ class Home extends BaseController
         $casasModel = new casasModel();
       //  $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
 
-
+/**
         $builder = $casasModel->table('casas');
         $builder->select('*');
         $builder->join('casausuario', 'casas.id = casausuario.id');
         $data= $builder->get();
+*/
+        $teams = $casasinicioModel->table('casausuario t1')
+        ->join('casas t2', 't2.id = t1.id')
+        ->where('t1.idCliente',1)
+        ->get()
+        ->getResultArray();
+
+        $teamIds = array_column($teams, 'team_id');
+
         
         
 
