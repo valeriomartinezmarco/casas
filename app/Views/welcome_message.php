@@ -1,5 +1,10 @@
 <?php
 include_once('template/header.php');
+
+foreach ($query->getResult() as $row)
+{
+        echo $row->title;
+}
 ?>
 
   <!-- ======= Hero Section ======= -->
@@ -22,7 +27,7 @@ include_once('template/header.php');
       <div class="container-fluid">
         <div class="row gy-4 justify-content-center">
           <?php
-          foreach ($casas as $key) {?>
+          foreach ($data as $key) {?>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="gallery-item h-100">    
               <img src="<?= base_url()."vendor/assets/img/gallery/".$key['tagCasa'].'.jpg'; ?>" class="img-fluid" alt="">

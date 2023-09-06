@@ -32,11 +32,26 @@ class Home extends BaseController
     public function usuario($usuario=null)
     {
         
-        echo $usuario;
+//        echo $usuario;
         
 
-        $casasModel = new casasinicioModel();
-        $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
+        $casasinicioModel = new casasinicioModel();
+        $casasModel = new casasModel();
+      //  $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
+
+
+        $builder = $casasModel->table('casas');
+        $builder->select('*');
+        $builder->join('casausuario', 'casas.id = casausuario.id');
+        $data= $builder->get();
+        
+        
+
+
+        //$data=$builder->get()->array();
+        
+        
+
         //$propiedad=($data['casas'][0]['tagCasa']);
         return view('welcome_message',$data);
         
