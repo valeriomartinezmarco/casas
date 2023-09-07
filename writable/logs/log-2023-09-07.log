@@ -1,0 +1,455 @@
+ERROR - 2023-09-07 18:37:16 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-07 18:37:16 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:37:16 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:37:16 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:40:16 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:40:16 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:40:17 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:40:17 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:40:41 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:40:41 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t2`.`id` = `t1`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:41:47 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:41:47 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:41:57 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:41:57 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t1` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t1` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t1` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t1` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 18:42:01 --> mysqli_sql_exception: Unknown column 't1.idCliente' in 'where clause' in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\casas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\casas\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\casas\app\Controllers\Home.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\casas\system\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+#7 C:\xampp\htdocs\casas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\casas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\casas\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 18:42:01 --> Unknown column 't1.idCliente' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `casausuario`
+JOIN `casas` `t2` ON `t1`.`id` = `t2`.`id`
+WHERE `t1`.`idCliente` = :t1.idCliente:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:43:24 --> Undefined variable $query
+in APPPATH\Views\welcome_message.php on line 4.
+ 1 APPPATH\Views\welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\casas\\app\\Views\\welcome_message.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\casas\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:43:37 --> Call to undefined method App\Models\casasModel::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:43:37 --> Call to undefined method App\Models\casasModel::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:44:00 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\casas\app\Controllers\Home.php on line 66
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(66): view('welcome_message', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:44:01 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\casas\app\Controllers\Home.php on line 66
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(66): view('welcome_message', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:44:02 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\casas\app\Controllers\Home.php on line 66
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(66): view('welcome_message', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:44:15 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\casas\app\Controllers\Home.php on line 67
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Home.php(67): view('welcome_message', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:44:34 --> Call to undefined method App\Models\casasModel::getArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Model->__call('getArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 18:45:05 --> Call to undefined method App\Models\casasModel::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 20:05:13 --> Call to undefined method App\Models\casasModel::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->usuario('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 20:42:40 --> mysqli_sql_exception: Table 'cliente' already exists in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\casas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\casas\app\Database\Migrations\2023-08-23-174320_CreateClienteTable.php(22): CodeIgniter\Database\Forge->createTable('cliente')
+#5 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateClienteTable->up()
+#6 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\casas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\casas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\casas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\casas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\casas\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-07 20:43:38 --> mysqli_sql_exception: Table 'cliente' already exists in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\casas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\casas\app\Database\Migrations\2023-08-23-174320_CreateClienteTable.php(22): CodeIgniter\Database\Forge->createTable('cliente')
+#5 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateClienteTable->up()
+#6 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\casas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\casas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\casas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\casas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\casas\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-07 20:56:23 --> mysqli_sql_exception: Table 'cliente' already exists in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\casas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\casas\app\Database\Migrations\2023-08-23-174320_CreateClienteTable.php(22): CodeIgniter\Database\Forge->createTable('cliente')
+#5 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateClienteTable->up()
+#6 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\casas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\casas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\casas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\casas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\casas\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-07 20:57:13 --> mysqli_sql_exception: Table 'cliente' already exists in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\casas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\casas\app\Database\Migrations\2023-08-23-174320_CreateClienteTable.php(22): CodeIgniter\Database\Forge->createTable('cliente')
+#5 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateClienteTable->up()
+#6 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\casas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\casas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\casas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\casas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\casas\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-07 21:00:02 --> mysqli_sql_exception: Table 'cliente' already exists in C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\casas\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\casas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\casas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\casas\app\Database\Migrations\2023-08-23-174320_CreateClienteTable.php(22): CodeIgniter\Database\Forge->createTable('cliente')
+#5 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateClienteTable->up()
+#6 C:\xampp\htdocs\casas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\casas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\casas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\casas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\casas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\casas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\casas\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}

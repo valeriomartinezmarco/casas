@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class casasinicioModel extends Model
+class clienteModel extends Model
 {
-    protected $table      = 'casausuario';
+    protected $table      = 'cliente';
     //protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
@@ -14,15 +14,15 @@ class casasinicioModel extends Model
     //protected $returnType     = 'array';
     //protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['id','idCliente','idCasa','status','created_at'];
+    protected $allowedFields = ['id','tagCasa','tituloCasa','introCasa',  'botonCasaCel', 'tituloDescCasa',  'descCasa' ,  'descJardin' ,'footerCasa','infoCasa','categoriaCasa' , 'adminCasa','fotosfechaCasa','ligafotosCasa' ];
 
 
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
-    //protected $updatedField  = 'updated_at';
-    //protected $deletedField  = 'deleted_at';
+    protected $updatedField  = 'updated_at';
+    protected $deletedField  = 'deleted_at';
 
     // Validation
     protected $validationRules      = [];

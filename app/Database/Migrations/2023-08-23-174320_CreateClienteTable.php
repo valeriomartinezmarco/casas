@@ -10,6 +10,7 @@ class CreateClienteTable extends Migration
     {
         $this->forge->addField([
             'id' => ['type' => 'INT','usigned'=>true, 'constraint' => 5, 'unsigned' => true, '  auto_increment' => true],
+            'user' => ['type' => 'VARCHAR', 'constraint' => 20],
             'nombreCliente' => ['type' => 'VARCHAR', 'constraint' => 200],
             'nombreCasa' => ['type' => 'VARCHAR', 'constraint' => 200],
             'email' => ['type' => 'VARCHAR', 'constraint' => 200],
@@ -19,6 +20,17 @@ class CreateClienteTable extends Migration
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('cliente'); 
+
+
+        $this->forge->addField([
+            'idasesor' => ['type' => 'INT','usigned'=>true],
+            'userasesor' => ['type' => 'VARCHAR', 'constraint' => 200],
+            'status' => ['type' => 'VARCHAR', 'constraint' => 1],
+            'created_at datetime default current_timestamp',
+        ]);
+        
+        $this->forge->createTable('asesores'); 
+
 
 
         $this->forge->addField([
