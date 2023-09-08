@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\casausuarioModel;
 use App\Models\casasModel;
-use App\Models\casasinicioModel;
+use App\Models\asesoresModel;
+
 
 
 class Home extends BaseController
@@ -31,11 +33,29 @@ class Home extends BaseController
 
     public function usuario($usuario=null)
     {
+
         
-        $casasinicioModel = new casasinicioModel();
-        $casasModel = new casasModel();
-        $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
-        return view('welcome_message',$data);  
+        $asesoresModel = new asesoresModel();
+        $casausuarioModel = new casausuarioModel();
+                //determina si existe
+        $data['casas'] = $asesoresModel->where('userasesor',$usuario)->countAllResults();
+        
+        if ($data['casas']==0){
+            echo 'no existe';
+        }else{
+            //echo 'si existe';
+            $data2['casas']= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
+
+//print_r($data2['casas']);
+
+
+
+            return view('welcome_message',$data2);  
+            
+        }
+
+
+        
            
     }
 
