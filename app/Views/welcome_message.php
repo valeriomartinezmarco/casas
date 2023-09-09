@@ -1,5 +1,12 @@
 <?php
 include_once('template/header.php');
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 57f317e34b336be5aa01d3ed5a94966171ecd151
 ?>
 
   <!-- ======= Hero Section ======= -->
@@ -22,13 +29,13 @@ include_once('template/header.php');
       <div class="container-fluid">
         <div class="row gy-4 justify-content-center">
           <?php
-          foreach ($data as $key) {?>
+          foreach ($casas as $key) {?>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="gallery-item h-100">    
-              <img src="<?= base_url()."vendor/assets/img/gallery/".$key['tagCasa'].'.jpg'; ?>" class="img-fluid" alt="">
+              <img src="<?= base_url()."vendor/assets/img/gallery/".$key['idCasa'].'.jpg'; ?>" class="img-fluid" alt="">
                 <div class="gallery-links d-flex align-items-center justify-content-center">
                   <a href="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                  <a href="propiedad/<?=$key['id'];?>" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>
+                  <a href="propiedad/<?=$key['idCasa'];?>" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Gallery Item -->

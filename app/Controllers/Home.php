@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\casausuarioModel;
 use App\Models\casasModel;
-use App\Models\casasinicioModel;
+use App\Models\asesoresModel;
+
 
 
 class Home extends BaseController
@@ -31,38 +33,28 @@ class Home extends BaseController
 
     public function usuario($usuario=null)
     {
-        
-//        echo $usuario;
-        
-
-        $casasinicioModel = new casasinicioModel();
-        $casasModel = new casasModel();
-      //  $data['casas'] = $casasModel->where('idCliente',$usuario)->find();
-
-/**
-        $builder = $casasModel->table('casas');
-        $builder->select('*');
-        $builder->join('casausuario', 'casas.id = casausuario.id');
-        $data= $builder->get();
-*/
-        $teams = $casasinicioModel->table('casausuario t1')
-        ->join('casas t2', 't2.id = t1.id')
-        ->where('t1.idCliente',1)
-        ->get()
-        ->getResultArray();
-
-        $teamIds = array_column($teams, 'team_id');
 
         
+        $asesoresModel = new asesoresModel();
+        $casausuarioModel = new casausuarioModel();
+                //determina si existe
+        $data['casas'] = $asesoresModel->where('userasesor',$usuario)->countAllResults();
         
+        if ($data['casas']==0){
+            echo 'no existe';
+        }else{
+            //echo 'si existe';
+            $data2['casas']= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
+
+//print_r($data2['casas']);
 
 
-        //$data=$builder->get()->array();
-        
-        
 
-        //$propiedad=($data['casas'][0]['tagCasa']);
-        return view('welcome_message',$data);
+            return view('welcome_message',$data2);  
+            
+        }
+
+
         
            
     }
