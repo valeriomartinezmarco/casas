@@ -1,10 +1,5 @@
 <?php
 include_once('template/header.php');
-
-foreach ($query->getResult() as $row)
-{
-        echo $row->title;
-}
 ?>
 
   <!-- ======= Hero Section ======= -->
