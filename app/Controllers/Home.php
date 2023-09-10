@@ -44,11 +44,29 @@ class Home extends BaseController
             echo 'no existe';
         }else{
             //echo 'si existe';
-            $query= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
-            $data['casas']= $casasModel->whereIn('id' ,[1,2,3])->findAll();
-            //print_r($data['casas']);
+            $dato='';
+                $query= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
+                $cuenta=$casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->CountAll();
+                //print_r($query);
+                $count=0;
+                $sep='';
+                //   $items = array();
+            foreach($query as $username) {
 
+                $count= $count+1;
 
+                echo $count.'/'.$cuenta;        
+                if ($count==$cuenta){
+                $sep='';
+                }else{
+                    $sep=',';
+                }
+                
+                $dato .= $username['idCasa'].$sep;
+            }
+            
+            $data['casas']= $casasModel->whereIn('id' ,[$dato])->findAll();
+            
             return view('welcome_message',$data);  
             
         }
