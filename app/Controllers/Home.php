@@ -34,23 +34,22 @@ class Home extends BaseController
     public function usuario($usuario=null)
     {
 
-        
+        $casasModel = new casasModel();
         $asesoresModel = new asesoresModel();
         $casausuarioModel = new casausuarioModel();
                 //determina si existe
-        $data['casas'] = $asesoresModel->where('userasesor',$usuario)->countAllResults();
+        $datas['casass'] = $asesoresModel->where('userasesor',$usuario)->countAllResults();
         
-        if ($data['casas']==0){
+        if ($datas['casass']==0){
             echo 'no existe';
         }else{
             //echo 'si existe';
-            $data2['casas']= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
+            $query= $casausuarioModel->select('idCasa')->where('idAsesor',$usuario)->findAll();
+            $data['casas']= $casasModel->whereIn('id' ,[1,2,3])->findAll();
+            //print_r($data['casas']);
 
-//print_r($data2['casas']);
 
-
-
-            return view('welcome_message',$data2);  
+            return view('welcome_message',$data);  
             
         }
 
