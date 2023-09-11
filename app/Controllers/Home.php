@@ -15,6 +15,8 @@ class Home extends BaseController
 
     public function index()
     {
+        
+
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->find();
         return view('welcome_message',$data);
@@ -24,6 +26,9 @@ class Home extends BaseController
     public function usuario($usuario=null)
     {
 
+        session_start();
+        $_SESSION['asesor'] = 'marco';
+        exit();
         $casasModel = new casasModel();
         $asesoresModel = new asesoresModel();
         $casausuarioModel = new casausuarioModel();
@@ -65,6 +70,12 @@ class Home extends BaseController
       
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->where('id',$casa)->find();
+        //obtiene el IDTEL
+        //$asesoresModel = new asesoresModel();
+        
+        //$datas['casass'] = $asesoresModel->where('userasesor',$usuario)->findAll();
+
+
         $propiedad=($data['casas'][0]['tagCasa']);
         return  view('casa',$data);   
     }
