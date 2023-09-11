@@ -29,7 +29,7 @@ include_once('template/header.php');
             ?>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="gallery-item h-100">    
-              <img src="<?= base_url()."vendor/assets/img/gallery/".$key['tagCasa'].'.jpg'; ?>" class="img-fluid" alt="">
+              <img src="<?= base_url()."vendor/assets/img/gallery/".$key['tagCasa'].'.jpeg'; ?>" class="img-fluid" alt="">
                 <div class="gallery-links d-flex align-items-center justify-content-center">
                   <a href="<?= base_url()?>vendor/assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                   <a href="propiedad/<?=$key['id'];?>" class="details-link">7-9 personas<i class="bi bi-link-45deg"></i></a>

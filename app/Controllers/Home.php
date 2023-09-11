@@ -5,31 +5,21 @@ use App\Models\casausuarioModel;
 use App\Models\casasModel;
 use App\Models\asesoresModel;
 
-
-
 class Home extends BaseController
 {
-
-
-    //protected $userModel;
 
     public function __construct()
     {
         
     }
 
-
     public function index()
     {
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->find();
-        //$propiedad=($data['casas'][0]['tagCasa']);
-      //echo print_r($data);
-    
         return view('welcome_message',$data);
         
     }
-
 
     public function usuario($usuario=null)
     {
@@ -37,9 +27,8 @@ class Home extends BaseController
         $casasModel = new casasModel();
         $asesoresModel = new asesoresModel();
         $casausuarioModel = new casausuarioModel();
-                //determina si existe
         $datas['casass'] = $asesoresModel->where('userasesor',$usuario)->countAllResults();
-        
+       
         if ($datas['casass']==0){
             echo 'no existe';
         }else{
@@ -51,32 +40,23 @@ class Home extends BaseController
                 $count=0;
                 $sep='';
                 //   $items = array();
+                $categories = array();
             foreach($query as $username) {
-
                 $count= $count+1;
-
                 //echo $count.'/'.$cuenta;        
+                $comas=("'");
                 if ($count==$cuenta){
                 $sep='';
                 }else{
                     $sep=',';
                 }
-                
-                 $dato .= $username['idCasa'].$sep;
-                 $datoprueba = array($dato); 
+
+                $categories[] = $username['idCasa'];
             }
-            //exit();
-            //print_r(is_string($datoprueba[0]));
-            //exit();
-            $data['casas']= $casasModel->whereIn('id' ,strval($datoprueba))->findAll();
             
+     $data['casas']= $casasModel->whereIn('id',$categories)->findAll();            
             return view('welcome_message',$data);  
-            
         }
-
-
-        
-           
     }
 
 
