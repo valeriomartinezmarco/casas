@@ -55,17 +55,20 @@ class Home extends BaseController
 
                 $count= $count+1;
 
-                echo $count.'/'.$cuenta;        
+                //echo $count.'/'.$cuenta;        
                 if ($count==$cuenta){
                 $sep='';
                 }else{
                     $sep=',';
                 }
                 
-                $dato .= $username['idCasa'].$sep;
+                 $dato .= $username['idCasa'].$sep;
+                 $datoprueba = array($dato); 
             }
-            
-            $data['casas']= $casasModel->whereIn('id' ,[$dato])->findAll();
+            //exit();
+            //print_r(is_string($datoprueba[0]));
+            //exit();
+            $data['casas']= $casasModel->whereIn('id' ,strval($datoprueba))->findAll();
             
             return view('welcome_message',$data);  
             
