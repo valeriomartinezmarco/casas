@@ -37,6 +37,8 @@ $routes->get('propiedad/(:num)', 'Home::casa/$1');
 
 $routes->get('galeria/(:num)', 'Home::galeria/$1');
 
+$routes->get('nosotros', 'Home::nosotros');
+
 
 //$routes->get('casanaranja', 'Home::casanaranja');
 //$routes->get('galerianaranja', 'Home::galerianaranja');

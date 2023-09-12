@@ -9,7 +9,9 @@ include_once('template/header.php');
         <div class="col-lg-6 text-center">
           <h2>Casas de Fin de Semana , Cuernavaca Morelos.</h2>
           <p>Ven a descasar y disfrutar del clima de la alberca!! </p>
-          <a href="contact.html" class="btn-get-started">Quieres más información?</a>
+          <a class="fa fa-whatsapp" aria-hidden="true" href="https://wa.me/+52<?= $_SESSION['asesor'];?>/?text=tu%20texto%20personalizado">Da clic para asesorarte!!</a>
+          
+
         </div>
       </div>
     </div>
