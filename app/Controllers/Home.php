@@ -10,6 +10,7 @@ class Home extends BaseController
 
     public function __construct()
     {
+        $this->session = \Config\Services::session();
         
     }
 
@@ -19,6 +20,7 @@ class Home extends BaseController
 
         $casasModel = new casasModel();
         $data['casas'] = $casasModel->find();
+        //print_r($data);
         return view('welcome_message',$data);
         
     }
@@ -26,9 +28,13 @@ class Home extends BaseController
     public function usuario($usuario=null)
     {
 
-        session_start();
-        $_SESSION['asesor'] = 'marco';
-        exit();
+        //session_start();
+        //$_SESSION['asesor'] = 'marco';
+        //$session = \Config\Services::session($config);
+//$session->start();
+        $_SESSION['asesor'] = $usuario;
+
+  //      exit();
         $casasModel = new casasModel();
         $asesoresModel = new asesoresModel();
         $casausuarioModel = new casausuarioModel();
@@ -74,7 +80,7 @@ class Home extends BaseController
         //$asesoresModel = new asesoresModel();
         
         //$datas['casass'] = $asesoresModel->where('userasesor',$usuario)->findAll();
-
+        print_r($_SESSION);
 
         $propiedad=($data['casas'][0]['tagCasa']);
         return  view('casa',$data);   

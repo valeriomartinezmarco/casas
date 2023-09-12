@@ -38,7 +38,7 @@ body {
             <h2><?= $casas[0]['tituloCasa'];?></h2>
             <?= $casas[0]['introCasa'];?>
             
-            <a class="cta-btn" href="https://wa.me/+527777929929/?text=tu%20texto%20personalizado">   <?= $casas[0]['botonCasaCel'];?>            </a>
+            <a class="cta-btn" href="https://wa.me/+52<?= $_SESSION['asesor'];?>/?text=tu%20texto%20personalizado">   <?= $casas[0]['botonCasaCel'];?>            </a>
             
           </div>
         </div>
@@ -63,7 +63,7 @@ body {
                     if($elemento != '.' && $elemento != '..')
                     {?>
                       <div class="swiper-slide">
-                      <img src="../vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="40%" height="40%">
+                      <img src="../vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="100%" height="100%">
                     </div>
 
                       <?php
