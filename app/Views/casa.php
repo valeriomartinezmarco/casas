@@ -60,7 +60,7 @@ body {
                 while($elemento = readdir($directorio))
                 {
                 
-                    if($elemento != '.' && $elemento != '..')
+                    if($elemento != '.' && $elemento != '..' && $elemento != 'all_photo')
                     {?>
                       <div class="swiper-slide">
                       <img src="../vendor/assets/img/gallery/<?= $casas[0]['tagCasa'].'/'.$elemento; ?>" alt="" width="100%" height="100%">

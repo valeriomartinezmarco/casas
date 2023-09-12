@@ -80,7 +80,7 @@ class Home extends BaseController
         //$asesoresModel = new asesoresModel();
         
         //$datas['casass'] = $asesoresModel->where('userasesor',$usuario)->findAll();
-        print_r($_SESSION);
+  //      print_r($_SESSION);
 
         $propiedad=($data['casas'][0]['tagCasa']);
         return  view('casa',$data);   

@@ -1,7 +1,5 @@
 <?php
 include_once('template/header.php');
-//print_r($casas);
-//exit();
 ?>
 
   <!-- ======= Hero Section ======= -->

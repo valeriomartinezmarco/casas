@@ -49,10 +49,10 @@
         <i class="bi bi-camera"></i>
         <h1>Casas Seguras.</h1>
       </a>
-
+ 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#" onclick="back()" class="active">Inicio</a></li>
+          <li><a href="<?= base_url().'/'.$_SESSION['asesor'];?>"  class="active">Inicio</a></li>
           <li><a href="about.html">Nosotros</a></li>
           <li class="dropdown"><a href="#"><span>Galeria</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
